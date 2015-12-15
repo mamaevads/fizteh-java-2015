@@ -34,7 +34,7 @@ public class BlockingQueue<T> {
         try {
             long time = TimeUnit.MILLISECONDS.toNanos(timeout);
             boolean addable = true;
-            while ((timeout == 0 || time > 0) && elements.size() + newElements.size() > capacity) {
+            while ((timeout == 0 || time > 0) && elements.size() + newElements.size() > capacity ) {
                 if (timeout == 0) {
                     canPut.await();
                 } else {
@@ -88,4 +88,3 @@ public class BlockingQueue<T> {
 
 
 }
-
