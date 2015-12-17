@@ -1,9 +1,9 @@
 package ru.fizteh.fivt.students.mamaevads.miniorm;
-import java.util.List;
+/*import java.util.List;
 
-import org.junit.Test;
 
 import junit.framework.TestCase;
+import org.junit.Test;
 import ru.fizteh.fivt.students.mamaevads.miniorm.Column;
 import ru.fizteh.fivt.students.mamaevads.miniorm.DatabaseService;
 import ru.fizteh.fivt.students.mamaevads.miniorm.PrimaryKey;
@@ -72,5 +72,4 @@ public class DatabaseServiceTest extends TestCase {
 
 }
 
-
-
+*/
