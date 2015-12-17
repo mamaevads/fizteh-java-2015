@@ -14,8 +14,7 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import org.h2.jdbcx.JdbcConnectionPool;
-
+//import org.h2.jdbcx.JdbcConnectionPool;
 
 public class DatabaseService<T> {
     private Class<T> tableClass;
