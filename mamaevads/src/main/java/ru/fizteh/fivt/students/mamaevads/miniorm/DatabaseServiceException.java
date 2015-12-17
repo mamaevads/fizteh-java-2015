@@ -10,3 +10,5 @@ public class DatabaseServiceException extends Exception {
         super(message, cause);
     }
 }
+
+
