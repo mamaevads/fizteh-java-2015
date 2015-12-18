@@ -37,4 +37,3 @@ public class MakeMassage {
         return message;
     }
 }
-
