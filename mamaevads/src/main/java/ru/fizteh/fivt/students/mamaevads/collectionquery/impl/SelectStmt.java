@@ -2,7 +2,6 @@ package ru.fizteh.fivt.students.mamaevads.collectionquery.impl;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
-import java.util.*;
 import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.Predicate;
@@ -10,9 +9,6 @@ import java.util.stream.Stream;
 import java.util.stream.StreamSupport;
 
 import java.util.Comparator;
-import java.util.function.Function;
-import java.util.function.Predicate;
-import java.util.stream.Stream;
 
 /**
  * Created by Даша on 01.11.2015.
