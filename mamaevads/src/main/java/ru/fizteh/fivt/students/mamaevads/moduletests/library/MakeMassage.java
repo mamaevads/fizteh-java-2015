@@ -1,4 +1,7 @@
 package ru.fizteh.fivt.students.mamaevads.moduletests.library;
+
+import twitter4j.Status;
+
 import twitter4j.*;
 
 import java.time.LocalDateTime;
