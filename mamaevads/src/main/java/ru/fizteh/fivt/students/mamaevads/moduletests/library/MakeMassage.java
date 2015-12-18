@@ -1,7 +1,4 @@
 package ru.fizteh.fivt.students.mamaevads.moduletests.library;
-
-import twitter4j.Status;
-
 import twitter4j.*;
 
 import java.time.LocalDateTime;
@@ -31,7 +28,7 @@ public class MakeMassage {
     static String getTime(Status st) {
         LocalDateTime tweetDate = st.getCreatedAt().toInstant().atZone(ZoneId.systemDefault()).toLocalDateTime();
         LocalDateTime curDate = LocalDateTime.now();
-        return TimeHandler.getType(tweetDate, curDate);
+        return TimeHandler.getType(tweetDate,curDate);
     }
 
     static String info(Status st) throws LostInformationException {
